@@ -9,21 +9,23 @@ src/ – Python scripts for feature selection and model training
 
 ## Installation
 Clone the repository and install dependencies:
-git clone https://github.com/your-username/your-repo.git
+`git clone https://github.com/your-username/your-repo.git
 cd your-repo
-pip install -r requirements.txt
+pip install -r requirements.txt`
 
 ## Dataset
 The dataset includes penguin species, culmen length/width, flipper length, and body mass, collected from different Antarctic islands.
 
 ## Feature Selection Methods
-Filter methods (Correlation, Mutual Information)
-Wrapper methods (Recursive Feature Elimination)
-Embedded methods (Lasso Regression, Tree-based selection)
+- **Filter Methods**: Correlation, Mutual Information
+- **Wrapper Methods**: Recursive Feature Elimination (RFE)
+- **Embedded Methods**: Lasso Regression, Tree-based Selection
+
+
 
 ## Usage
 Run the main script for feature selection:
-python src/feature_selection.py
+`python src/feature_selection.py`
 
 ## License
 This project is licensed under the MIT License.
