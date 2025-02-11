@@ -2,10 +2,10 @@
 This project explores feature selection techniques in machine learning using datasets of penguins from Antarctica. The goal is to identify the most significant features for classification tasks, improving model performance and interpretability.
 
 ## Project Structure
-data/ – Contains the dataset of penguins
-notebooks/ – Jupyter notebooks with exploratory data analysis and model training
-models/ – Saved machine learning models
-src/ – Python scripts for feature selection and model training
+- *`data/`* – Contains the dataset of penguins
+- *`notebooks/`* –  Jupyter notebooks with exploratory data analysis and model training
+- *`models/`* – Saved machine learning models
+- *`src/ `* – Python scripts for feature selection and model training
 
 ## Installation
 Clone the repository and install dependencies:
